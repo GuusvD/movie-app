@@ -1,0 +1,22 @@
+package com.teamc11.MovieApp.datastorage;
+
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
+import androidx.room.Query;
+
+import com.teamc11.MovieApp.domain.MovieDetailed;
+
+import java.util.List;
+
+@Dao
+public interface MovieDetailedDAO {
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void insert(MovieDetailed movieDetailed);
+
+    @Query("DELETE FROM movieDetailed_table")
+    void deleteAll();
+
+    @Query("SELECT * FROM movieDetailed_table")
+    List<MovieDetailed> getAll();
+}

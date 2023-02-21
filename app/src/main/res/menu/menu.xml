@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_account"
+        android:title=""
+        android:id="@+id/account"
+        app:showAsAction="always"></item>
+    <item
+        android:icon="@drawable/ic_list"
+        android:title=""
+        android:id="@+id/lists"
+        app:showAsAction="always"></item>
+    <item android:title="Filters" android:id="@+id/filter"></item>
+    <item android:title="Settings" android:id="@+id/setting"></item>
+    <item android:title="@string/logout" android:id="@+id/logout"></item>
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamc11.MovieApp">
+    <queries> <intent> <action android:name="com.google.android.youtube.api.service.START" /> </intent> </queries>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".presentation.list.ListAddMovieActivity"
+            android:exported="false"
+            android:label="@string/list_movie_add"
+            android:parentActivityName=".presentation.list.ListDetailActivity"/>
+        <activity
+            android:name=".presentation.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.list.ListCreateActivity"
+            android:exported="false"
+            android:label="Create List"
+            android:parentActivityName=".presentation.list.ListActivity" />
+        <activity
+            android:name=".presentation.list.ListDetailActivity"
+            android:exported="false"
+            android:label="List"
+            android:parentActivityName=".presentation.list.ListActivity" />
+        <activity
+            android:name=".presentation.list.ListActivity"
+            android:exported="false"
+            android:label="Lists"
+            android:parentActivityName=".presentation.movie.MovieActivity" />
+        <activity
+            android:name=".presentation.FiltersActivity"
+            android:exported="false"
+            android:label="Filters"
+            android:parentActivityName=".presentation.movie.MovieActivity" />
+        <activity
+            android:name=".presentation.AccountActivity"
+            android:exported="false"
+            android:label="Account"
+            android:parentActivityName=".presentation.movie.MovieActivity" />
+        <activity
+            android:name=".presentation.SettingsActivity"
+            android:exported="false"
+            android:label="Settings"
+            android:parentActivityName=".presentation.movie.MovieActivity" />
+        <activity
+            android:name=".presentation.movie.MovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.movie.MovieDetailActivity"
+            android:label="Detail"
+            android:parentActivityName=".presentation.movie.MovieActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".presentation.movie.MovieActivity" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

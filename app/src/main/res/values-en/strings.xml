@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="ratingCard">Rating:</string>
+    <string name="releaseDateCard">Released on:</string>
+    <string name="genresCard">Genres:</string>
+    <string name="movie_detail_header">Movie details</string>
+    <string name="choose_date">Choose date</string>
+    <string name="change_language">Change Language</string>
+    <string name="select_language">Select language:</string>
+    <string name="enable_darkmode">Enable darkmode:</string>
+    <string name="clear_date">Clear date</string>
+    <string name="picked_date">picked date</string>
+    <string name="filter_movies_dy_date">Filter movies dy date:</string>
+    <string name="on_off">ON/OFF:</string>
+    <string name="filter_movies_by_genre">Filter movies by genre:</string>
+    <string name="default_rating">Rating 5</string>
+    <string name="filter_movies_by_rating">Filter movies by rating:</string>
+    <string name="title">Title</string>
+    <string name="overview">Overview</string>
+    <string name="reviews">Reviews</string>
+    <string name="add_review">Add review</string>
+    <string name="date">Date</string>
+    <string name="no_ratings_yet">No ratings yet!</string>
+    <string name="watch_trailer">Watch trailer</string>
+    <string name="play_trailer">Play trailer</string>
+    <string name="rating">Rating</string>
+    <string name="genres">Genres</string>
+    <string name="name">Name</string>
+    <string name="content">Content</string>
+    <string name="sort_release_date">Sort release date</string>
+    <string name="sort_rating">Sort rating</string>
+    <string name="sort_title">Sort title</string>
+    <string name="pick_a_date">Pick a date!</string>
+
+    <string name="title_activity_login">MovieApp</string>
+
+
+    <string name="list_create_listName">Name</string>
+    <string name="list_create_description">Description</string>
+    <string name="list_create_language">Language</string>
+    <string name="list_create_submit">Create List</string>
+    <string name="create_list_failed">Failed to create list</string>
+    <string name="list_deleted">List removed</string>
+    <string name="movie_deleted">Movie deleted</string>
+    <string name="list_movie_add">Add Movie</string>
+    <string name="movie_added">Movie Added</string>
+
+    <string name="share_text_with">Share list with:</string>
+    <string name="runtimeCard">Runtime:</string>
+    <string name="producedByCard">Produced by:</string>
+    <string name="add_rating">Add rating</string>
+    <string name="submit_rating">Submit rating</string>
+    <string name="enter_number_between_1_and_10">Enter number between 1 and 10</string>
+
+    <string-array name="language_array">
+        <item name="language_options">Choose</item>
+        <item name="dutch_language">Dutch</item>
+        <item name="english_language">English</item>
+    </string-array>
+    <string-array name="genre_array">
+        <item>Choose</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>TV Movie</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="logout">Log out</string>
+    <string name="login_failed">Login failed</string>
+    <string name="youve_rated">You\'ve rated </string>
+    <string name="with_rating"> with a rating of </string>
+    <string name="rating_label">Rating: </string>
+    <string name="author_label">Author: </string>
+    <string name="comment_label">Comment: </string>
+    <string name="date_label">Date: </string>
+    <string name="account_id_label">Account ID: </string>
+    <string name="account_username_label">Username: </string>
+    <string name="account_name_label">Name: </string>
+    <string name="sort_creation_date">Sort creation date</string>
+    <string name="rating_error">You need to fill in a number between 1 and 10!</string>
+    <string name="deleteListConfirmation">Delete List</string>
+    <string name="confirmAction">YES</string>
+    <string name="deleteListConfirmMessage">Are you sure you want to delete this list?</string>
+    <string name="deleteMovieConfirmMessage">Are you sure you want to delete this movie?</string>
+    <string name="deleteMovieConfirmation">Delete Movie</string>
+    <string name="logoutConfirmation">Log out</string>
+    <string name="logoutConfirmMessage">Are you sure you want to log out?</string>
+    <string name="cancelAction">NO</string>
+    <string name="firstTimeInternet">First time startup requires an internet connection!</string>
+    <string name="firstTimeLongLoad">First time startup requires more time, please be patient</string>
+    <string name="usingRoomLoad">Using RoomDatabase for data</string>
+    <string name="usingAPILoad">Using API for data</string>
+
+</resources>

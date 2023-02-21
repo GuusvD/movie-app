@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="ratingCard">Rating:</string>
+    <string name="releaseDateCard">Uitgekomen op:</string>
+    <string name="genresCard">Genres:</string>
+    <string name="movie_detail_header">Film details</string>
+    <string name="choose_date">Kies datum</string>
+    <string name="change_language">Verander taal</string>
+    <string name="select_language">Kies taal:</string>
+    <string name="enable_darkmode">Zet darkmode aan</string>
+    <string name="clear_date">Reset datum</string>
+    <string name="picked_date">gekozen datum</string>
+    <string name="filter_movies_dy_date">Filter films per datum:</string>
+    <string name="on_off">AAN/UIT:</string>
+    <string name="filter_movies_by_genre">Filter films per genre:</string>
+    <string name="default_rating">Rating 5</string>
+    <string name="filter_movies_by_rating">Filter films per rating:</string>
+    <string name="title">Titel</string>
+    <string name="overview">Beschrijving</string>
+    <string name="reviews">Reviews</string>
+    <string name="add_review">Review schrijven</string>
+    <string name="date">Dautm</string>
+    <string name="no_ratings_yet">Nog geen ratings!</string>
+    <string name="watch_trailer">Bekijk trailer</string>
+    <string name="play_trailer">Speel trailer af</string>
+    <string name="rating">Rating</string>
+    <string name="genres">Genres</string>
+    <string name="name">Naam</string>
+    <string name="content">Content</string>
+    <string name="sort_release_date">Datum</string>
+    <string name="sort_rating">Rating</string>
+    <string name="sort_title">Titel</string>
+    <string name="pick_a_date">Kies een datum!</string>
+    <string name="list_create_listName">Naam</string>
+    <string name="list_create_description">Beschrijving</string>
+    <string name="list_create_language">Taal</string>
+    <string name="list_create_submit">Lijst maken</string>
+    <string name="create_list_failed">Lijst aanmaken mislukt</string>
+    <string name="list_deleted">Lijst verwijderd</string>
+    <string name="movie_deleted">Film verwijderd</string>
+    <string name="list_movie_add">Film toevoegen</string>
+    <string name="movie_added">Film toegevoegd</string>
+    <string name="share_text_with">Deel lijst met:</string>
+    <string name="runtimeCard">Tijdsduur:</string>
+    <string name="producedByCard">Geproduceerd door:</string>
+
+    <string-array name="language_array">
+        <item name="language_options">Kies</item>
+        <item name="dutch_language">Nederlands</item>
+        <item name="english_language">Engels</item>
+    </string-array>
+
+    <string-array name="genre_array">
+        <item>Choose</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>TV Movie</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string name="title_activity_login">MovieApp</string>
+    <string name="prompt_email">Gebruikersnaam</string>
+    <string name="prompt_password">Wachtwoord</string>
+    <string name="action_sign_in">Maak account aan of registeer</string>
+    <string name="action_sign_in_short">Inloggen</string>
+    <string name="logout">Uitloggen</string>
+    <string name="login_failed">Inloggegevens zijn fout</string>
+    <string name="add_rating">Voeg beoordeling toe</string>
+    <string name="submit_rating">Bevestig beoordeling</string>
+    <string name="enter_number_between_1_and_10">Vul een nummer tussen de 1 en 10 in</string>
+    <string name="youve_rated">Jij hebt </string>
+    <string name="with_rating"> beoordeeld met een beoordeling van </string>
+    <string name="rating_label">Beoordeling: </string>
+    <string name="author_label">Auteur: </string>
+    <string name="comment_label">Opmerking: </string>
+    <string name="date_label">Datum: </string>
+    <string name="account_id_label">Account ID: </string>
+    <string name="account_username_label">Gebruikersnaam: </string>
+    <string name="account_name_label">Naam: </string>
+
+    <string name="sort_creation_date">Creatie datum</string>
+    <string name="rating_error">Je moet een getal tussen 1 en 10 invullen!</string>
+    <string name="deleteListConfirmation">Verwijder lijst</string>
+    <string name="confirmAction">JA</string>
+    <string name="deleteListConfirmMessage">Weet je zeker dat je deze lijst wilt verwijderen?</string>
+    <string name="deleteMovieConfirmMessage">Weet je zeker dat je deze film wilt verwijderen?</string>
+    <string name="deleteMovieConfirmation">Verwijder film</string>
+    <string name="logoutConfirmation">Uitloggen</string>
+    <string name="logoutConfirmMessage">Weet je zeker dat je uit wilt loggen?</string>
+    <string name="cancelAction">NEE</string>
+    <string name="firstTimeInternet">Bij het ophalen van de data voor de eerste keer is een netwerk verbinding vereist.</string>
+    <string name="firstTimeLongLoad">De eerste keer inladen duurt iets langer, heb alstublieft geduld.</string>
+    <string name="usingRoomLoad">Gebruikt de Room Database</string>
+    <string name="usingAPILoad">Gebruikt de API</string>
+
+</resources>

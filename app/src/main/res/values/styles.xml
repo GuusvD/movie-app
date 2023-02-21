@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        // Customize theme here
+        <item name="colorPrimary">#5463FF</item>
+        <item name="colorAccent">#FFC300</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+    </style>
+
+    <style name="headerText" parent="AppTheme">
+        <item name= "android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:textColor">@color/divider</item>
+    </style>
+</resources>
